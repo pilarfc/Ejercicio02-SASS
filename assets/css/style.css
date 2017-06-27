@@ -1,0 +1,217 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+.container {
+  width: 100%;
+  margin: 0 auto; }
+
+.row {
+  max-width: 100%;
+  margin: 0 auto; }
+
+.row::before, .row::after {
+  content: " ";
+  display: table; }
+
+.row::after {
+  clear: both; }
+
+[class*="small-"], [class*="medium-"], [class*="large-"] {
+  min-height: 8px;
+  padding: 12px;
+  float: left; }
+
+@media (min-width: 1024px) {
+  .large-1 {
+    /* (1/12)*100 */
+    width: 8.333%; }
+
+  .large-2 {
+    /* (2/12)*100 */
+    width: 16.666%; }
+
+  .large-3 {
+    /* (3/12)*100 */
+    width: 25%; }
+
+  .large-4 {
+    /* (4/12)*100 */
+    width: 33.333%; }
+
+  .large-5 {
+    /* (5/12)*100 */
+    width: 41.666%; }
+
+  .large-6 {
+    /* (6/12)*100 */
+    width: 50%; }
+
+  .large-7 {
+    /* (7/12)*100 */
+    width: 58.333%; }
+
+  .large-8 {
+    /* (8/12)*100 */
+    width: 66.666%; }
+
+  .large-12 {
+    /* (12/12)*100 */
+    width: 100%; } }
+/*MEDIA QUERIES PARA GRID ├ÜNICAMENTE */
+/* GRID MOBILE */
+@media only screen and (max-width: 767px) {
+  .small-1 {
+    width: 8.333%; }
+
+  .small-2 {
+    width: 16.666%; }
+
+  .small-3 {
+    width: 25%; }
+
+  .small-4 {
+    width: 33.333%; }
+
+  .small-5 {
+    width: 41.666%; }
+
+  .small-6 {
+    width: 50%; }
+
+  .small-7 {
+    width: 58.333%; }
+
+  .small-8 {
+    width: 66.666%; }
+
+  .small-9 {
+    width: 75%; }
+
+  .small-10 {
+    width: 83.333%; }
+
+  .small-11 {
+    width: 91.666%; }
+
+  .small-12 {
+    width: 100%; } }
+/* GRID TABLET */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .medium-1 {
+    width: 8.333%; }
+
+  .medium-2 {
+    width: 16.666%; }
+
+  .medium-3 {
+    width: 25%; }
+
+  .medium-4 {
+    width: 33.333%; }
+
+  .medium-5 {
+    width: 41.666%; }
+
+  .medium-6 {
+    width: 50%; }
+
+  .medium-7 {
+    width: 58.333%; }
+
+  .medium-8 {
+    width: 66.666%; }
+
+  .medium-9 {
+    width: 75%; }
+
+  .medium-10 {
+    width: 83.333%; }
+
+  .medium-11 {
+    width: 91.666%; }
+
+  .medium-12 {
+    width: 100%; } }
+#capitan {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background: rgba(250, 168, 26, 0.8);
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 3%;
+  padding-left: 1%; }
+
+#links ul li {
+  list-style: none;
+  margin-left: 0 auto; }
+
+#link-1, #link-2, #link-3, #link-4 {
+  height: 30px;
+  background-color: #2E2E2E;
+  margin: 1%;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  padding-top: 1%; }
+
+a #link-4:hover {
+  background-color: rgba(250, 168, 26, 0.8); }
+
+#links a {
+  text-decoration: none; }
+
+#seccion-central h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  color: black;
+  text-align: left; }
+
+#seccion-central p, h4, ol li {
+  text-align: left;
+  font-family: Arial; }
+
+#seccion-central p {
+  margin-top: 4%; }
+
+#seccion-central h4 {
+  margin-top: 5%; }
+
+#seccion-derecha {
+  background-color: #2E2E2E;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  margin-top: 1%; }
+
+footer {
+  height: 70px;
+  background: #2E2E2E;
+  color: white;
+  font-family: Arial;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2%;
+  margin-top: 4%; }
+
+/*┬¿MEDIA QUERIES PARA ESTILOS */
+@media only screen and (max-width: 767px) {
+  #lista-asistencia li {
+    margin-left: 10%; } }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #lista-asistencia li {
+    margin-left: 6%; } }
+@media only screen and (min-width: 1024px) {
+  #lista-asistencia li {
+    margin-left: 8%; } }
+
+/*# sourceMappingURL=style.css.map */
